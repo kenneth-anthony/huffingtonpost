@@ -9,10 +9,12 @@
 		<h6>Persona</h6>
 		<p> The persona for Huffington Post is a educated, liberal, 18-42, <br>
 			65% female, 35% male audience. The typical Huffington Post user<br>
-			is tech savey and views on a mobile device. The end user wants to read <br>
-			politics, busines, entertainment, tech, media, worldpost, healthy, and <br>
-			and occasionally enjoy comedy.
+			is tech savey and views HP on a mobile device. The end user wants to read <br>
+			read politics, busines, entertainment, tech, media, worldpost, healthy, and <br>
+			and occasionally enjoys comedy.<br>
+			<br>
 		</p>
+		<h6>Use Case</h6>
 	</body>
 
 </html>
