@@ -8,13 +8,12 @@ div {
 }
 
 .backgroundImage {
-	background-image: url("images/old_paper_texture_by_caminopalmero.jpg");
+	background-image: url("images/old_paper_texture_by_caminopalmero.jpg") no-repeat top center;
 	background-size: cover;
 }
 
 header {
 	background-color: rgba(178, 0, 19, .90);
-
 }
 
 header h1 {

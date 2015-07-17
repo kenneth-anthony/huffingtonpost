@@ -9,7 +9,14 @@
 		<header>
 			<h1>Huffington Post</h1>
 			<p>Data Design Project</p>
-	<div class="backgroundImage"
 		</header>
+
+	<div class="backgroundImage">
+	</div>
+
+	<div	class="main">
+		<h3></h3>
+	</div>
+
 	</div>
 </body>
