@@ -8,9 +8,8 @@
 	<div class="container">
 		<header>
 			<h1>Huffington Post</h1>
-			<h3>Data Design Project</h3>
+			<p>Data Design Project</p>
+	<div class="backgroundImage"
 		</header>
 	</div>
 </body>
-
-</html>
