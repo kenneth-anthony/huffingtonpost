@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="utf-8">
-		<Link rel="stylesheet" type="text/css" href="mystyle.css">
+		<Link rel="stylesheet" type="text/css" href="huffStyle.css">
 		<link href='http://fonts.googleapis.com/css?family=Gravitas+One|Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 </head>
 
