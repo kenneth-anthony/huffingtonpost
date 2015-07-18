@@ -3,29 +3,17 @@
 	padding: 5px;
 	width: 90%;
 }
-div {
-	display: block;
-}
-
+.container
 .backgroundImage {
 	background-image: url("images/old_paper_texture_by_caminopalmero.jpg") no-repeat top center;
 	background-size: cover;
-}
-
-header {
-	background-color: rgba(178, 0, 19, .90);
-}
-
-header h1 {
-	text-align: center;
-	font-family: cursive, sans-serif;
-	font-size: 45px;
+	background-attachment: fixed;
 }
 
 header h3  {
 	text-align: center;
 	font-family: Helvetica;
-	font-style: normal;
+	font	-style: normal;
 	font-size: 24px;
 
 }

@@ -2,6 +2,8 @@
 	<head>
 		<meta charset="utf-8">
 		<Link rel="stylesheet" type="text/css" href="mystyle.css">
+		<!--Added google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Gravitas+One|Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -10,13 +12,6 @@
 			<h1>Huffington Post</h1>
 			<p>Data Design Project</p>
 		</header>
-
-	<div class="backgroundImage">
 	</div>
-
-	<div	class="main">
-		<h3></h3>
-	</div>
-
-	</div>
+	<p><a href="images/old_paper_texture_by_caminopalmero.jpg"</a> </p>
 </body>
