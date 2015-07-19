@@ -13,7 +13,7 @@
 		</header>
 	</div>
 	<div class="background">
-			<img src="images/backgroundImg.jpg" alt="background">
+		<img src="images/backgroundImg1.jpg" alt="background">
 	</div>
 	<main>
 		
