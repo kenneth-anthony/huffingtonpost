@@ -1,4 +1,12 @@
+.background {
+	background-color: beige;
+	opacity:0.6
+	background-size: cover;
+	background: url("images/backgroundImg.jpg") fixed;
+}
+
 .container {
+	position: relative;
 	margin: 5px;
 	padding: 5px;
 	width: 90%;
@@ -16,8 +24,3 @@ header p {
 	font-size: 24px;
 }
 
-.background {
-	background-image: url("images/backgroundTwo.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-}

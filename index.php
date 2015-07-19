@@ -6,14 +6,15 @@
 </head>
 
 <body>
-	<div class="container">
-		<header>
-			<h1>Huffington Post</h1>
-			<p>Data Design Project</p>
-		</header>
-	</div>
 	<div class="background">
-		<img src="images/backgroundTwo.jpg" alt="background">
+		<img src="images/backgroundImg.jpg" alt="background">
+	</div>
+		<div class="container">
+			<header>
+				::before
+				<h1>Huffington Post</h1>
+				<p>Data Design Project</p>
+			</header>
 	</div>
 
 	<main>
