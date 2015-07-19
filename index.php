@@ -13,9 +13,8 @@
 		</header>
 	</div>
 	<div class="background">
-		<img src="images/old_paper_texture_by_caminopalmero.jpg">
+			<img src="images/backgroundImg.jpg" alt="background">
 	</div>
-
 	<main>
 		
 	</main>

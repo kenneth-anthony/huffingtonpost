@@ -11,6 +11,12 @@ header h1 {
 }
 
 header p {
+	text-align: center;
 	font-family: 'Gravitas One', serif;
 	font-size: 24px;
+}
+
+.background {
+	background-image: url("images/backgroundImg.jpg");
+	background-size: auto;
 }
