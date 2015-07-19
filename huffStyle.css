@@ -1,8 +1,9 @@
 .background {
-	background-color: beige;
-	opacity:0.6
-	background-size: cover;
-	background: url("images/backgroundImg.jpg") fixed;
+	position: fixed;
+	top:0;
+	left:0;
+	min-width:100%;
+	min-height:100%;
 }
 
 .container {
