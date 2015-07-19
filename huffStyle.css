@@ -17,7 +17,7 @@ header p {
 }
 
 .background {
-	background-image: url("images/backgroundImg.jpg");
+	background-image: url("images/backgroundTwo.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }

@@ -13,8 +13,9 @@
 		</header>
 	</div>
 	<div class="background">
-		<img src="images/backgroundImg1.jpg" alt="background">
+		<img src="images/backgroundTwo.jpg" alt="background">
 	</div>
+
 	<main>
 		
 	</main>
