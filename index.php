@@ -7,8 +7,6 @@
 
 <body>
 	<div class="background">
-		<img src="images/seamless.jpg" alt="background">
-	</div>
 		<div class="container">
 			<header>
 				<h1>Huffington Post</h1>
@@ -17,7 +15,19 @@
 	</div>
 
 	<main>
-		<p>The persona for Huffington Post is a educated, liberal, 18-42, <br> 	65% female, 35% male audience. The typical Huffington Post user<br> 	is tech savvy and views HP on a mobile device. The end user wants to read <br> 	read politics, business, entertainment, tech, media, worldpost, healthy, and <br> 	and occasionally enjoys comedy.<br> 	To read further demographic information click the link<br></p>
+		<div class="persona">
+			<h3>A PERSONA OF FATE</h3>
+			<p>The persona for Huffington Post is a educated, liberal, 18-42,
+				65% female, 35% male audience. The typical Huffington Post user
+				is tech savvy and views HP on a mobile device. The end user wants to
+				read politics, business, entertainment, tech, media, worldpost, healthy,
+				and occasionally enjoys comedy.
+				To read further demographic information click the link.
+				<a href="http://www.nielsen.com/us/en/insights/news/2011/aol-huffington-post.html">
+					Huffington Post Demographics.	</a>
+			</p>
+			<img src="images/donaldbw.jpg" width="730" height="551" alt="">
+		</div>
 
 	</main>
 
