@@ -54,3 +54,9 @@ header p {
 	padding: 20px;
 	margin-top: 20px;
 }
+
+.relationship {
+	padding: 20px;
+	margin-top: 20px;
+	background-image: url("images/relationshipmap.png");
+}

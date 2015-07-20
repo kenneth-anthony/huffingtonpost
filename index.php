@@ -40,4 +40,35 @@
 				</div>
 	</main>
 
+		<p>
+			CREATE TABLE profile (
+				profileId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+				email VARCHAR(128) NOT NULL,
+				atHandle VARCHAR(32),
+				UNIQUE(username),
+				UNIQUE(email),
+				PRIMARY KEY(profileId)
+				);
+
+			CREATE TABLE comment (
+				username INT UNSIGNED AUTO_INCREMENT NOT NULL,
+				profileId INT UNSIGNED NOT NULL,
+				comment content VARCHAR(140) NOT NULL,
+				comment dateTime DATETIME NOT NULL,
+				INDEX(profileId),
+				FOREIGN KEY(profileId) REFERENCES profile(profileId),
+				PRIMARY KEY(tweetId)
+				);
+
+			CREATE TABLE shared articles (
+				profileId INT UNSIGNED NOT NULL,
+				username INT UNSIGNED NOT NULL,
+				favoriteDate DATETIME NOT NULL,
+				INDEX(profileId),
+				INDEX(tweetId),
+				FOREIGN KEY(profileId) REFERENCES profile(profileId),
+				FOREIGN KEY(tweetId) REFERENCES tweet(tweetId)
+			);
+		</p>
+
 </body>
