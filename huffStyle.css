@@ -1,6 +1,5 @@
 .background {
-	background: no-repeat fixed top center;
-	background-size: cover;
+	background-repeat: repeat;
 }
 
 .container {

@@ -7,7 +7,7 @@
 
 <body>
 	<div class="background">
-		<img src="images/backgroundImg.jpg" alt="background">
+		<img src="images/seamlesspaper4.jpg" alt="background">
 	</div>
 		<div class="container">
 			<header>
@@ -17,8 +17,7 @@
 	</div>
 
 	<main>
-		<div class="" </div>
-		
+
 	</main>
 
 </body>
