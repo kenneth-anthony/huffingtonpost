@@ -26,9 +26,18 @@
 				<a href="http://www.nielsen.com/us/en/insights/news/2011/aol-huffington-post.html">
 					Huffington Post Demographics.	</a>
 			</p>
-			<img src="images/donaldbw.jpg" width="730" height="551" alt="">
+			<img id="richard" src="images/donaldbw.jpg" width="730" height="551" alt="Richard Trump">
 		</div>
-
+			<div class="usecase">
+				<h3> Use Case</h3>
+				<p> A signed in user of Huffington Post adds a comment on a article by accessing the the sight,
+					scrolling to the bottom of the artle, clicking a on the add a comment link,
+					writing a comment submit the comment and share with facebook.
+				</p>
+			</div>
+				<div id="relationshipmap">
+					<img src="images/relationshipmap.png"alt="relationship map">
+				</div>
 	</main>
 
 </body>
