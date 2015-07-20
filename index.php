@@ -7,11 +7,10 @@
 
 <body>
 	<div class="background">
-		<img src="images/background-image-two.jpg" alt="background">
+		<img src="images/backgroundimage.jpg" alt="background">
 	</div>
 		<div class="container">
 			<header>
-				::before
 				<h1>Huffington Post</h1>
 				<p>Data Design Project</p>
 			</header>
