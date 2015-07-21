@@ -30,13 +30,37 @@
 		</div>
 			<div class="usecase">
 				<h3> Use Case</h3>
-				<p> A signed in user of Huffington Post adds a comment on a article by accessing the the sight,
-					scrolling to the bottom of the artle, clicking a on the add a comment link,
-					writing a comment submit the comment and share with facebook.
-				</p>
+				<p>I.	Overview
+					A user creates an account with Huffingtonpost.com and is able to comment, save and share articles through various social networking channels.
+
+					II.	Primary Actor.
+							profileId
+
+					III.	Stakeholders
+							Aol parent company of Huffington Post
+
+					IV.	Basic flow
+							a.	A user creates a profileId (primary key)
+									i.	Creates an Account @ huffingtonpost.con (attribute)
+								ii.Inputs username (attribute)
+								iii.	Valid email address (attribute)
+								iv.	password (attribute)
+									1.	must be at least 6 characters
+									2.	must confirm password
+									3.	the password will be secure with salted and hash
+								v.	A profileId and username is created (ProfileId)
+							b.	Profile user accesses the comment field by scrolling to end of article and access a dialogue box call CONVERSATIONS.
+								i.	 User adds a comment by clicking on "Add a comment link. (entity)
+								ii.	User writes comments (entity)
+								iii.	User submits comment by clicking comment button (attribute)
+								iv.	A date and time stamp is generated (attribute)
+								v.	The comment is automatically shared on Huffington Post (relation)
+							c.	Many user may like, reply or share comment on Huffingtonpost.com (weak entity)
+									i.	Many user may like share or reply on facebook (weak entity)
+										1.	user name, profileId, T/D stamp (attributes)</p>
 			</div>
 				<div id="relationshipmap">
-					<img src="images/relationshipmap.png"alt="relationship map">
+					<img	src="images/relationshipmap.png" alt="relationship map">
 				</div>
 	</main>
 
@@ -65,7 +89,7 @@
 				username INT UNSIGNED NOT NULL,
 				favoriteDate DATETIME NOT NULL,
 				INDEX(profileId),
-				INDEX(tweetId),
+				INDEX(userId),
 				FOREIGN KEY(profileId) REFERENCES profile(profileId),
 				FOREIGN KEY(tweetId) REFERENCES tweet(tweetId)
 			);
